@@ -22,13 +22,12 @@ body {
     position: fixed;
     top: 50vh;
     left: 50vw;
-    
+    background: transparent;
 }
 
 .content {
     max-width: 1000px;
-    margin: 50px auto;
-    filter: blur(70px);
+    margin: 50px auto;   
 }
 
 img {
