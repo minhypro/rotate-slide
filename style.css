@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-
 * {
     box-sizing: border-box;
    
@@ -13,22 +11,6 @@ body {
     color: #222;
     margin: 0;
     
-}
-
-.loading-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    position: fixed;
-    top: 50vh;
-    left: 50vw;
-    
-}
-
-.content {
-    max-width: 1000px;
-    margin: 50px auto;
-    filter: blur(70px);
 }
 
 img {
@@ -92,6 +74,11 @@ img {
 
 .container.show-nav .circle {
     transform: rotate(-100deg);
+}
+
+.content {
+    max-width: 1000px;
+    margin: 50px auto;
 }
 
 .content h1 {
